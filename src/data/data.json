@@ -1,0 +1,76 @@
+{
+    "transactions":[
+    {
+      "transactionId": "T001",
+      "customerId": "C001",
+      "name": "John Doe",
+      "date": "2023-12-15",
+      "product": "Laptop",
+      "price": 120.50
+    },
+    {
+      "transactionId": "T002",
+      "customerId": "C002",
+      "name": "Jane Smith",
+      "date": "2024-01-20",
+      "product": "Phone",
+      "price": 80.00
+    },
+    {
+      "transactionId": "T003",
+      "customerId": "C001",
+      "name": "John Doe",
+      "date": "2024-02-10",
+      "product": "Tablet",
+      "price": 150.75
+    },
+    {
+        "transactionId": "T004",
+        "customerId": "C003",
+        "name": "Bob Johnson",
+        "date": "2024-02-15",
+        "product": "Laptop",
+        "price": 220.50
+    },
+    {
+        "transactionId": "T005",
+        "customerId": "C003",
+        "name": "Bob Johnson",
+        "date": "2024-03-25",
+        "product": "Headphone",
+        "price": 55.55
+    },
+    {
+        "transactionId": "T006",
+        "customerId": "C004",
+        "name": "Sarah",
+        "date": "2024-01-17",
+        "product": "Laptop",
+        "price": 320.50
+    },
+    {
+        "transactionId": "T007",
+        "customerId": "C004",
+        "name": "Sarah",
+        "date": "2024-03-05",
+        "product": "Tablet",
+        "price": 140.50
+    },
+    {
+      "transactionId": "T008",
+      "customerId": "C005",
+      "name": "Alice",
+      "date": "2024-04-15",
+      "product": "Tablet",
+      "price": 130.50
+    },
+    {
+      "transactionId": "T009",
+      "customerId": "C004",
+      "name": "Sarah",
+      "date": "2024-03-05",
+      "product": "Headphone",
+      "price": 100.2
+    }
+  ]
+}

@@ -8,12 +8,19 @@ This project is a React-based UI for a retailer's rewards program. It calculates
 - Handle large datasets, edge cases, and non-integer values.
 - Fully tested with Jest.
 
+## Folder Structure
+- `/components`: Reusable UI components.
+- `/services`: Contains the API service for data fetching.
+- `/utils`: Contains utility functions like CalculateRewards.
+- `/modules`: Main modules of the application.
+- `/data`: Holds sample transaction data (`data.json`).
+
 ## Setup
 
 1. *Clone the repository:*
     bash
-    git clone https://github.com/yourusername/rewards-program-ui.git
-    cd rewards-program-ui
+    git clone <repo-url>
+    cd project-directory
     
 
 2. *Install dependencies:*
@@ -68,3 +75,27 @@ After testing is complete, remember to re-enable the no-console rule to maintain
       "no-unused-vars": "warn",
       "semi": ["error", "always"]
   }
+
+## Running Application
+
+Here is a screenshot of the running application:
+
+![Running Application](./src/screenshots/running_application.png)
+
+## Loading State
+
+The application shows a loading indicator while fetching data:
+
+![Loading State](./src/screenshots/loading_state.png)
+
+## Error State
+
+If an error occurs during data fetching, the application displays an error message:
+
+![Error State](./src/screenshots/error_state.png)
+
+## Test Cases Passed
+
+All test cases pass successfully, ensuring the app's functionality:
+
+![Test Cases Passed](./src/screenshots/tests_passed.png)
